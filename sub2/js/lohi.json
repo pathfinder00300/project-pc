@@ -1,0 +1,10 @@
+{
+    "lohi":[
+        {"name":"프리미엄 황다랑어 참치", "image":"./images/sub3/product01.jpg","bigimg":"./images/sub3/pop_img01.jpg","memo":"황다랑어는 가다렁어에 비해 크기가 크고 육질이 단단하고,<br>통살이 살아있는 프리미엄 참치입니다.","type":"수산물가공품(멸균제품)","brand":"로하이","seller":"사조대림","material":"황다랑어"},
+        {"name":"프리미엄 마라 참치", "image":"./images/sub3/product02.jpg", "bigimg":"./images/sub3/pop_img02.jpg","memo":"황다랑어는 가다렁어에 비해 크기가 크고 육질이 단단하고,<br>통살이 살아있는 프리미엄 참치입니다.","type":"수산물가공품(멸균제품)","brand":"로하이","seller":"사조대림","material":"황다랑어"},
+        {"name":"프리미엄 트러플 참치", "image":"./images/sub3/product03.jpg", "bigimg":"./images/sub3/pop_img03.jpg","memo":"황다랑어는 가다렁어에 비해 크기가 크고 육질이 단단하고,<br>통살이 살아있는 프리미엄 참치입니다.","brand":"로하이","seller":"사조대림","material":"황다랑어"},
+        {"name":"프리미엄 알바코 참치", "image":"./images/sub3/product04.jpg", "bigimg":"./images/sub3/pop_img04.jpg","memo":"황다랑어는 가다렁어에 비해 크기가 크고 육질이 단단하고,<br>통살이 살아있는 프리미엄 참치입니다.","type":"수산물가공품(멸균제품)","brand":"로하이","seller":"사조대림","material":"황다랑어"},
+        {"name":"생생참치 레귤러", "image":"./images/sub3/product05.jpg", "bigimg":"./images/sub3/pop_img05.jpg","memo":"황다랑어는 가다렁어에 비해 크기가 크고 육질이 단단하고,<br>통살이 살아있는 프리미엄 참치입니다.","type":"수산물가공품(멸균제품)","brand":"로하이","seller":"사조대림","material":"황다랑어"},
+        {"name":"생생참치 스파이시", "image":"./images/sub3/product06.jpg", "bigimg":"./images/sub3/pop_img06.jpg","memo":"황다랑어는 가다렁어에 비해 크기가 크고 육질이 단단하고,<br>통살이 살아있는 프리미엄 참치입니다.","type":"수산물가공품(멸균제품)","brand":"로하이","seller":"사조대림","material":"황다랑어"}
+    ]
+}

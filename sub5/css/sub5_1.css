@@ -1,0 +1,18 @@
+/* 홍보영상 본문영역 */
+section{width: 100%;}
+section .title{width: 1400px; margin: 0 auto;}
+section .title h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 19px;}
+section .title span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+section .title p{font-size: var(--font-p-size); color: var(--color-font1); margin-bottom: 87px;}
+section .youtube_main{width: 1400px; height: 700px; margin: 0 auto; margin-bottom: 100px;}
+section .youtube_main iframe{width: 100%; height: 100%; border-radius: 30px;}
+
+/* 흐르는 유튜브리스트 */
+.youtube_wrap{width: 100%; background: var(--color-sub2); padding: 40px 0; overflow: hidden; margin-bottom: 150px;}
+.youtube_wrap .youtube_list{display: flex; gap: 30px;}
+.youtube_wrap .youtube_list li{width: 300px; height: 169px; flex-shrink: 0;}
+.youtube_wrap .youtube_list li .youtube_item{width: 100%; height: 100%;}
+.youtube_wrap .youtube_list li .youtube_item a {display: block; width: 100%; height: 100%;}
+.youtube_wrap .youtube_list li .youtube_item img {display: block; width: 100%; height: 100%; border-radius: 15px; transition: transform 0.3s ease;}
+.youtube_wrap .youtube_list li .youtube_item:hover img {transform: scale(1.05);}
+.youtube_wrap:hover .youtube_list {animation-play-state: paused;}

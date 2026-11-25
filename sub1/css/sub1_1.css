@@ -1,0 +1,34 @@
+/* 기업소개 본문영역 */
+
+.content_area .btn{display: flex; justify-content: center; gap: 16px; margin-bottom: 120px;}
+.content_area .btn li a{font-size: var(--font-sub-size); color: var(--color-font2); font-weight: 400;  padding: 13px 40px; border: 1px solid #d9d9d9; border-radius: 50px; transition: all .3s ease-out;}
+.content_area .btn li a:hover,
+.content_area .btn li .active
+{background: var(--color-main); font-weight: 500; color: #fff;}
+
+.main_title{margin-bottom: 120px; text-align: center;}
+.main_title p{font-size: 50px; font-weight: 700; text-align: center; position: relative; display: inline;}
+.main_title span{color: var(--color-main);}
+.main_title p::before{content: ''; background: url(../images/sub1/quote_start.png) no-repeat; position: absolute; width: 70px; height: 53px; top: -20px; left: -74px;}
+.main_title p::after{content: ''; background: url(../images/sub1/quote_end.png) no-repeat; position: absolute; width: 70px; height: 53px; top: 100px; right: -235px;}
+
+.sajo_intro{width: 1400px; margin: 0 auto; display: flex; margin-bottom: 120px;}
+.sajo_intro img{border-radius: 30px;}
+.sajo_intro .right_text{width: 672px; margin-left: 53px;}
+.sajo_intro .right_text p{font-size: var(--font-p-size); color: var(--color-font1); line-height: 35px; text-align: justify; margin-bottom: 35px;}
+.sajo_intro .right_text p strong{font-size: var(--font-gnb-size);}
+
+.sajo_intro2{width:100%;}
+.sajo_intro2 .top_content{width: 2000px; display: flex; justify-content: flex-start; margin-bottom: 190px; gap: 60px; position: relative; left: 50%; transform: translate(-50%);}
+.sajo_intro2 .top_content div img{width: 975px; border-radius: 0 0 330px 0;}
+.sajo_intro2 .top_content .right_text{width: 674px; display: block;}
+.sajo_intro2 .top_content .right_text span{font-family: "Roboto", sans-serif; font-size: var(--font-gnb-size); font-weight: 600; color: var(--color-subtitle);}
+.sajo_intro2 .top_content .right_text .title{font-size: var(--font-h4-size); font-weight: 600; margin-bottom: 40px;}
+.sajo_intro2 .top_content .right_text p{font-size: var(--font-p-size); color: var(--color-font1); margin-bottom: 30px; text-align: justify;}
+
+.sajo_intro2 .bot_content{width: 2000px; display: flex; justify-content: flex-end; margin-bottom: 190px; gap: 60px; position: relative; left: 50%; transform: translate(-50%);}
+.sajo_intro2 .bot_content div img{width: 975px; border-radius: 330px 0 0 0;}
+.sajo_intro2 .bot_content .left_text{width: 674px; display: block;}
+.sajo_intro2 .bot_content .left_text span{font-family: "Roboto", sans-serif; font-size: var(--font-gnb-size); font-weight: 600; color: var(--color-subtitle);}
+.sajo_intro2 .bot_content .left_text .title{font-size: var(--font-h4-size); font-weight: 600; margin-bottom: 40px;}
+.sajo_intro2 .bot_content .left_text p{font-size: var(--font-p-size); color: var(--color-font1); margin-bottom: 30px; text-align: justify;}

@@ -1,0 +1,42 @@
+/* 수산사업 본문영역 */
+
+/* 섹션1 */
+.content_area .intro{width: 100%; height: 560px; background: url(../images/sub1/business_intro01.jpg) center no-repeat; margin-bottom: 105px;}
+.intro .inner{width: 1400px; margin: 0 auto;}
+.intro .intro_title01{font-size: var(--font-h6-size); font-weight: 600; color: #fff; padding-top: 290px;}
+.intro .intro_title02{font-size: var(--font-h3-size); font-weight: 600; color: #fff;}
+
+.content_area .section01{width: 1400px; display: flex; margin: 0 auto; justify-content: space-between; align-items: center; margin-bottom: 105px;}
+.section01 h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 50px;}
+.section01 h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+.section01 ul{display: flex; gap: 7px;}
+.section01 ul li{padding: 7px 20px; border: 1px solid #666; border-radius: 30px; color: var(--color-font3);}
+
+.section01 dl{width: 811px; font-size: var(--font-p-size); line-height: 30px; color: var(--color-font1);}
+.section01 dl dt{font-size: var(--font-h6-size); font-weight: 700; margin-bottom: 35px;}
+.section01 dl dd{text-align: justify;}
+.section01 dl dd:first-of-type{margin-bottom: 35px;}
+
+/* 섹션2 */
+.section02{width: 100%; height: 672px; background: url(../images/sub1/business_intro02.jpg) center no-repeat; background-attachment: fixed; background-size: cover; padding-top: 105px; box-sizing: border-box; margin-bottom: 112px;}
+.section02 .inner{width: 1400px; margin: 0 auto; position: relative;}
+.section02 h3{font-size: var(--font-h3-size); color: #fff; margin-bottom: 40px;}
+.section02 h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+.section02 p{width: 1400px; height: 274px; font-size: var(--font-gnb-size); text-align: center; line-height: 1.5; background: rgba(255, 255, 255, .7); padding: 85px 143px; box-sizing: border-box;  border-radius: 50px 0; backdrop-filter: blur(10px); box-shadow: var(--box-shadow3);}
+.section02 p::before{content: ''; background: url(../images/sub1/quote_start.png) no-repeat; position: absolute; width: 70px; height: 53px; left: 45px; bottom: 163px;}
+.section02 p::after{content: ''; background: url(../images/sub1/quote_end.png) no-repeat; position: absolute; width: 70px; height: 53px; right: 45px; bottom: 80px;}
+
+/* 섹션3 */
+.section03{width: 1400px; margin: 0 auto;}
+.section03 h3{text-align: center; font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 18px;}
+.section03 h3 span{font-family: "Roboto", sans-serif; display: block; font-size: var(--font-h5-size); font-weight: 500; color: var(--color-subtitle);}
+.section03>p{font-size: var(--font-p-size); text-align: center; margin-bottom: 90px; transition: all .5s ease-out;}
+.section03 section{width: 1400px; height: 502px; margin: 0 auto; background: var(--color-sub2); margin-bottom: 155px; display: flex; gap: 100px; align-items: center;}
+.section03 section:nth-of-type(even){flex-direction: row-reverse;}
+.section03 section div{width: 670px; position: relative;}
+.section03 section div h4{font-size: var(--font-h4-size); font-weight: 700; color: var(--color-font1); margin-bottom: 23px;}
+.section03 section div h4 span{font-family: "Roboto", sans-serif; display: block; font-size: var(--font-gnb-size); font-weight: 600; color: var(--color-main); margin-left: 50px;}
+.section03 section div h4::before{content: ''; width: 35px; height: 2px; background: var(--color-point1); position: absolute; top: 20px;}
+.section03 section div p{font-size: var(--font-p-size); color: var(--color-font1); text-align: justify; border-bottom: 1px solid var(--color-stroke); padding-bottom: 42px; margin-bottom: 43px;}
+.section03 section ul{display: flex; gap: 8px;}
+.section03 section ul li{padding: 7px 20px; border: 1px solid var(--color-stroke); border-radius: 30px; color: var(--color-font2);}

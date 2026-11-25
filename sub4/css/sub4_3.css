@@ -1,0 +1,84 @@
+/* 사회적경영 본문영역 */
+
+.section01{background: url(../images/sub3/intro03.jpg); width: 100%; height: 532px; margin-bottom: 250px;}
+.section01 .message_box{position: relative; top: 260px; width: 1200px; margin: 0 auto; padding: 80px 108px; background: #fff; border-radius: 40px; box-shadow: 0 18px 24px rgba(13, 36, 61, .13);}
+.section01 .message_box h3{font-size: var(--font-h4-size); font-weight: 700; color: var(--color-font1); margin-bottom: 23px;}
+.section01 .message_box h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+
+/* 섹션02 */
+.section02{background: url(../images/sub2/bg_img.jpg); width: 100%; height: 2190px; margin-bottom: 155px;}
+.section02 .sec_tit{width: 1400px; margin: 0 auto; padding-top: 114px;}
+.section02 .sec_tit h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 19px;}
+.section02 .sec_tit h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+.section02 .sec_tit p{font-size: var(--font-p-size); color: var(--color-font1); margin-bottom: 87px; margin-bottom: 130px;}
+/* 카드 */
+.section02 .rule_list{width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; column-gap: 80px; row-gap: 112px;}
+.section02 .rule_list>li{width: 517px; background: #fff; border: 1px solid var(--color-stroke2); padding: 52px 46px; box-sizing: border-box; position: relative;}
+.section02 .rule_list>li .card_num{display: block; font-family: "Roboto", sans-serif; font-size: var(--card-num-size); color: var(--card-num-color); font-weight: 800; margin-bottom: 31px;}
+.section02 .rule_list>li h4{font-size: var(--font-h5-size); color: var(--color-font1); font-weight: 700; margin-bottom: 31px;}
+.section02 .rule_list>li p{font-size: var(--font-p-size); color: var(--color-font1); font-weight: 400; margin-bottom: 31px; padding-bottom: 38px; border-bottom: 1px solid var(--color-stroke2);}
+.section02 .rule_list>li:nth-child(3){margin-left: auto;}
+.section02 .rule_list>li .material-symbols-outlined{position: absolute; right: 47px; top: 63px; font-size: 64px; color: var(--card-num-color); margin-top: auto; margin-right: 0}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 60
+}
+
+/* 섹션03 */
+.section03{width: 1400px; margin: 0 auto; display: flex; gap: 170px; margin-bottom: 155px;}
+.section03 .sec_tit{width: 40%;}
+.section03 .sec_tit h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 19px;}
+.section03 .sec_tit h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+.section03 .sec_tit p{font-size: var(--font-p-size); color: var(--color-font1); margin-bottom: 130px;}
+
+.section03 .right_sec{width: 60%;}
+.section03 .right_sec .stats_list{display: flex; justify-content: space-between; align-items: center; margin-bottom: 55px;}
+.section03 .right_sec .stats_list li{width: 235px; height: 235px; border: 1px solid var(--color-stroke2); padding: 42px 25px; box-sizing: border-box;}
+.section03 .right_sec .stats_list li strong{display: block; font-size: var(--font-gnb-size); font-weight: 700; color: var(--color-main); margin-bottom: 30px;}
+.section03 .right_sec .stats_list li p{font-size: var(--font-h4-size); font-weight: 800; color: var(--color-font1); margin-bottom: 10px;}
+.section03 .right_sec .stats_list li span{font-size: var(--font-basic-size); font-weight: 400; color: var(--color-font2);}
+
+.section03 .right_sec .policy_list{border-top: 2px solid var(--color-font1);}
+.section03 .right_sec .policy_list li{display: flex; align-items: center; border-bottom: 1px solid var(--color-stroke2); padding: 43px 0;}
+.section03 .right_sec .policy_list li span{font-family: "Roboto", sans-serif; font-size: var(--font-p-size); font-weight: 700; color: var(--color-main); width: 90px;}
+.section03 .right_sec .policy_list li strong{font-size: var(--font-p-size); font-weight: 700; color: var(--color-font1); width: 200px;}
+.section03 .right_sec .policy_list li p{flex: 1;}
+
+/* 섹션04 */
+.section04{width: 100%; background: var(--color-main) url(../images/sub1/bg_logo.png) no-repeat; background-position: 1071px 60px; padding: 110px 0; margin-bottom: 155px;}
+.section04 .sec_tit{width: 1400px; margin: 0 auto; margin-bottom: 115px;}
+.section04 .sec_tit h3{font-size: var(--font-h3-size); color: #fff; margin-bottom: 19px;}
+.section04 .sec_tit h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: #fff;}
+
+.section04 .safety_list{display: flex; justify-content: space-between; width: 1400px; margin: 0 auto; margin-bottom: 53px;}
+.section04 .safety_list li{width: 335px; border: 1px solid var(--color-stroke2); padding: 38px; box-sizing: border-box; background: #d9d9d910;}
+.section04 .safety_list li span{display: block; font-size: var(--font-gnb-size); font-weight: 600; color: var(--color-subtitle3); margin-bottom: 30px;}
+.section04 .safety_list li strong{display: block; font-size: var(--font-h6-size); font-weight: 700; color: #fff; margin-bottom: 25px;}
+.section04 .safety_list li p{font-size: var(--font-basic-size); font-weight: 400; color: #fff;}
+
+.section04 .result_list{display: flex; justify-content: space-between; width: 1400px; margin: 0 auto; margin-bottom: 53px;}
+.section04 .result_list li{width: 450px; background: #d9d9d910; border-left: 4px solid var(--color-subtitle3); padding: 38px; text-align: center; box-sizing: border-box;}
+.section04 .result_list li strong{display: block; font-size: var(--font-h4-size); font-weight: 700; color: #fff; margin-bottom: 10px;}
+.section04 .result_list li span{font-size: var(--font-basic-size); font-weight: 400; color: #fff;}
+
+/* 섹션05 */
+.section05{width: 1400px; margin: 0 auto;}
+.section05 .sec_tit{width: 1400px; margin: 0 auto; padding-top: 114px; margin-bottom: 96px;}
+.section05 .sec_tit h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 19px;}
+.section05 .sec_tit h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+
+.section05 .safety_visual{width: 1400px; margin: 0 auto; position: relative;}
+.section05 .safety_visual .info_box{position: absolute; width: 729px; padding: 90px 60px; background: #fff; border-radius: 30px; right: 0; top: 14%; box-shadow: var(--box-shadow5); box-sizing: border-box;}
+.section05 .safety_visual .info_box span{display: block; font-size: var(--font-gnb-size); font-weight: 700; color: var(--color-main); margin-bottom: 43px;}
+.section05 .safety_visual .info_box strong{display: block; font-size: var(--font-h5-size); font-weight: 700; color: var(--color-font1); margin-bottom: 55px;}
+.section05 .safety_visual .info_box p{font-size: var(--font-p-size); font-weight: 400; color: var(--color-font2); line-height: 1.5;}
+.section05 .safety_visual .report_box{width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--color-main); padding: 62px 97px; margin: 130px 0 200px;}
+.section05 .safety_visual .report_box .report_text span{display: block; font-size: var(--font-gnb-size); font-weight: 700; color: var(--color-main); margin-bottom: 5px;}
+.section05 .safety_visual .report_box .report_text strong{font-size: var(--font-h5-size); font-weight: 700; color: var(--color-font1);}
+.section05 .safety_visual .report_box .download{display: flex; justify-content: space-between; align-items: center; gap: 30px; border: 1px solid var(--color-font2); padding: 20px 35px; box-sizing: border-box;}
+.section05 .safety_visual .report_box .download .material-symbols-outlined{transition: all .5s ease-out;}
+.section05 .safety_visual .report_box .download:hover .material-symbols-outlined{transform: translateY(4px);}
+.section05 .safety_visual .report_box .download:hover{border: 1px solid var(--color-main); background: var(--color-main); color: #fff;}

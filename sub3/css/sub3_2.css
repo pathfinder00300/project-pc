@@ -1,0 +1,69 @@
+/* 식품사업 본문영역 */
+
+.content_area .intro{width: 100%; height: 560px; background: url(../images/sub2/business_intro02.jpg) center no-repeat; margin-bottom: 105px;}
+.intro .inner{width: 1400px; margin: 0 auto;}
+.intro .intro_title01{font-size: var(--font-h6-size); font-weight: 600; color: #fff; padding-top: 290px;}
+.intro .intro_title02{font-size: var(--font-h3-size); font-weight: 600; color: #fff;}
+
+/* 섹션1 */
+.content_area .section01{width: 1400px; display: flex; margin: 0 auto; justify-content: space-between; align-items: center; margin-bottom: 105px;}
+.section01 h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 50px;}
+.section01 h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+.section01 ul{display: flex; gap: 7px;}
+.section01 ul li{padding: 7px 20px; border: 1px solid #666; border-radius: 30px; color: var(--color-font3);}
+
+.section01 dl{width: 811px; font-size: var(--font-p-size); line-height: 30px; color: var(--color-font1);}
+.section01 dl dt{font-size: var(--font-h6-size); font-weight: 700; margin-bottom: 35px;}
+.section01 dl dd{text-align: justify;}
+.section01 dl dd:first-of-type{margin-bottom: 35px;}
+
+/* 섹션2 */
+.section02{width: 100%; height: 811px; background: var(--color-sub2); margin-bottom: 105px;}
+.section02 div{width: 1400px; margin: 0 auto; padding-top: 105px;}
+.section02 h3{font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 19px;}
+.section02 h3 span{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); display: block; font-weight: 500; color: var(--color-subtitle);}
+.section02 div p{font-size: var(--font-p-size); color: var(--color-font1); margin-bottom: 87px;}
+.section02 ul{width: 1400px; display: flex; justify-content: space-between; gap: 30px; margin: 0 auto;}
+.section02 ul li{position: relative; overflow: hidden}
+.section02 ul li p{position: absolute; top: 35px; left: 35px; font-family: "Roboto", sans-serif; font-size: var(--font-p-size); font-weight: 500; color: #fff;}
+.section02 ul li dl{position: absolute; left:35px; top: 186px;}
+.section02 ul li dl dt{margin-bottom: 15px; font-size: var(--font-sub-size); font-weight: 700; color: #fff;}
+.section02 ul li dl dd{font-size: var(--font-p-siz); color: #fff;}
+.section02 ul li img{width: 100%; height: 100%; transition: transform .5s ease-out;}
+.section02 ul li:hover img{transform: scale(1.1);}
+
+/* 섹션3 */
+.section03{width: 1400px; margin: 0 auto;}
+.section03 h3{text-align: center; font-size: var(--font-h3-size); color: var(--color-font1); margin-bottom: 18px; margin-bottom: 67px;}
+.section03 h3 span{font-family: "Roboto", sans-serif; display: block; font-size: var(--font-h5-size); font-weight: 500; color: var(--color-subtitle);}
+.section03 .tab_menu{display: flex; justify-content: center; align-items: center; gap: 16px; margin-bottom: 75px;}
+.section03 .tab_menu li a{font-size: var(--font-h6-size); color: var(--color-font2); padding: 13px 34px; border: 1px solid #d9d9d9; border-radius: 30px; transition: all .3s ease-out;}
+.section03 .tab_menu li a:hover,.section03 .tab_menu li .active{background: var(--color-main); color: #fff;}
+.section03 .sec_inner{display: none; background: var(--color-sub2);  margin-bottom: 105px;}
+.section03 .sec_inner2{display: flex; gap: 55px;}
+.section03 .right_txt{width: 681px; position: relative; padding-top: 70px;}
+.section03 .right_txt h4{font-size: var(--font-h4-size); font-weight: 700; color: var(--color-font1); margin-bottom: 20px;}
+.section03 .right_txt h4 span{font-family: "Roboto", sans-serif; display: block; font-size: var(--font-gnb-size); font-weight: 600; color: var(--color-main); margin-left: 50px;}
+.section03 .right_txt h4::before{content: ''; width: 35px; height: 2px; background: var(--color-point1); position: absolute; top: 90px;}
+.section03 .right_txt strong{display: block; font-size: var(--font-h6-size); font-weight: 600; color: var(--color-font2); margin-bottom: 34px;}
+.section03 .right_txt>p{font-size: var(--font-p-size); color: var(--color-font1); line-height: 1.5; text-align: justify; margin-bottom: 30px; padding-bottom: 50px; border-bottom: 2px solid var(--color-stroke);}
+
+.section03 .right_txt .white_box{width: 100%; background: #fff; border: 1px solid var(--color-stroke2); padding: 35px 35px; box-sizing: border-box; margin-bottom: 50px;}
+.section03 .right_txt .white_box dl{display: flex; justify-content: flex-start; gap: 30px;}
+.section03 .right_txt .white_box dl dt{width: 70px; font-size: var(--font-p-size); font-weight: 600; color: var(--color-main);}
+.section03 .right_txt .white_box dl dd{margin-bottom: 15px; font-size: var(--font-p-size);}
+.section03 .right_txt .white_box dl dd p{margin-bottom: 5px;}
+
+
+.section03 .right_txt>dl:not(:last-child){margin-bottom: 47px; padding-bottom: 50px; border-bottom: 2px solid var(--color-stroke);}
+.section03 .right_txt dt{font-size: var(--font-h6-size); font-weight: 700; color: var(--color-main); margin-bottom: 25px;}
+.section03 .right_txt dd{font-size: var(--font-p-size);}
+.section03 .right_txt dt dd:nth-of-type(2){padding-bottom: 50px; border-bottom: 2px solid var(--color-stroke);}
+.section03 .right_txt table{width: 100%; border-collapse: collapse;}
+.section03 .right_txt table thead{background: var(--color-table); color: var(--color-font1);}
+.section03 .right_txt table tbody th{background: var(--color-table)}
+.section03 .right_txt table th,.section03 .right_txt table td{border: 1px solid var(--color-stroke2); text-align: center; padding: 10px 20px;}
+.section03 .right_txt dl span{width: 109px; text-align: center; font-size: 14px; padding: 7px 20px; border: 1px solid var(--color-stroke); border-radius: 30px; box-sizing: border-box;}
+.section03 .right_txt .haccp{display: flex; justify-content: space-between; align-items: center; gap: 30px; margin-bottom: 40px; height: 200px;}
+.section03 .right_txt .haccp img{width: 118px; height: 118px;}
+.section03 .right_txt .haccp dl dd{text-align: justify;}

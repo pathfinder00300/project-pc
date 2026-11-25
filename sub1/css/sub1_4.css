@@ -1,0 +1,50 @@
+/* 오시는길 본문영역 */
+#content #map1{width: 1400px; height: 600px; border: 1px solid #d9d9d9; margin: 0 auto; margin-bottom: 45px;}
+#content #map2{width: 1300px; height: 550px; border: 1px solid #d9d9d9; margin: 0 auto; margin-bottom: 45px; }
+
+.map_top{width: 1400px; margin: 0 auto; margin-bottom: 150px;}
+.map_top table{width: 1400px; border-top: 3px solid var(--color-main);}
+.map_top table th{width: 215px; text-align: left; padding: 30px 55px 30px 55px; color: var(--color-font3);}
+.map_top table td{width: 785px; text-align: left; padding: 30px 140px 30px 35px; font-weight: 600; color: var(--color-font1);}
+.map_top table tr:first-child{border-bottom: 1px solid #d9d9d9;}
+.map_top ul{width: 1400px; display: flex; justify-content: flex-start; align-items: center; gap: 65px;}
+.map_top ul li{display: flex; align-items: center; margin-left: 25px;}
+.map_top ul li span{width: 100px; height: 100px; display: flex; justify-content: center; align-items: center; border-radius: 50%; background: var(--color-main); font-size: 50px; color: #fff;}
+.transport {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 60
+}
+.map_top ul{position: relative;}
+.map_top ul li dl{margin-left: 34px;}
+.map_top ul li dl dt{font-size: var(--font-h6-size); font-weight: 700; color: var(--color-font1); margin-bottom: 10px;}
+.map_top ul li dl dd{font-size: var(--font-p-size); color: var(--color-font1);}
+.map_top ul li::after{
+    content: '';
+    height: 140px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* 2번째 하단 지도 */
+.map_bot{width: 1400px; margin: 0 auto; margin-bottom: 150px;}
+.map_bot .etc_map{border: 2px solid var(--color-main); border-radius: 30px; margin-bottom: 25px;}
+.map_bot .map_info .map_content{width: 1300px; height: 180px; display: flex; margin: 0 auto; align-items: center;}
+.map_bot .map_info h3{margin-right: 115px; font-size: var(--font-h5-size); color: var(--color-main);}
+.map_bot .map_info span{margin-right: 25px; font-size: 40px; color: var(--color-font1);}
+.map_bot .map_info p{margin-right: 338px; font-size: var(--font-h5-size); color: var(--color-font1);}
+.map_bot .map_info a{display: flex; align-items: center; margin-left: auto;}
+.map_bot .map_info a span{font-size: 85px; color: var(--color-main);}
+/* .map_bot .map_info a:hover span{transform: rotate(180deg)} */
+/* 화살표 기본: ▼만 보임 */
+.map_bot .map_info .trigger .arrow_up{display: none;}
+.map_bot .map_info .trigger .arrow_down{display: flex;}
+
+/* 펼쳐졌을 때: ▲만 보임 */
+.map_bot .map_info .trigger.open .arrow_up{display: flex;}
+.map_bot .map_info .trigger.open .arrow_down{display: none;}
+

@@ -1,0 +1,46 @@
+/* 고객문의 본문영역 */
+.guide{width: 1400px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto; background: var(--color-sub2); border-radius:10px; padding:28px 34px;margin-bottom:28px; box-sizing: border-box;}
+.guide .guide_left{display: flex; justify-content: center; align-items: center; gap: 17px;}
+.guide .guide_left span{width: 44px; height: 44px; background: #E7EEF4; color: var(--color-main); border-radius: 50%; display: flex; justify-content: center; align-items: center;}
+.guide .guide_left .guide_text{display: block; color: var(--color-font1);}
+.guide .guide_left p{color: var(--color-font2);}
+.guide .guide_right{font-size: var(--font-basic-size); color: var(--color-font2);}
+.guide .guide_right strong{color: var(--color-point1);}
+
+/* 입력부분 */
+fieldset{border:0}
+legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+
+.form_table{width: 1400px; margin: 0 auto; border-top: 2px solid var(--color-font1); margin-bottom: 30px;}
+.form_table .form_row{display: flex; border-bottom: 1px solid var(--color-stroke2); min-height: 104px;}
+.form_table .form_row label{width: 230px; background: var(--color-sub2); display: flex; align-items: center; font-size: var(--font-p-size);
+    font-weight: 700; color: var(--color-font1); padding: 0 34px;}
+.form_table .form_row label span{font-weight: 800; color: var(--color-point1); margin-left:4px;}
+.form_table .form_row .form_text{display: flex; align-items: center; padding: 24px 36px; flex: 1;}
+.form_table .form_row .form_text input{width: 50%; height: 58px; padding: 0 18px; border: 1px solid var(--color-stroke2); border-radius: 6px; background: #fff; color: var(--color-font1);}    
+.form_table .form_row .form_text textarea{width: 100%; height: 150px; padding: 18px; border: 1px solid var(--color-stroke2); border-radius: 6px; background: #fff; color: var(--color-font1);}
+.form_table .form_row select{width: 30%; height: 58px; padding: 0 45px 0 18px; border: 1px solid var(--color-stroke2); border-radius: 6px; background: #fff; color: var(--color-font1);}
+.form_table .form_row .form_text select option{color: var(--color-font2);}
+
+/* 동의체크 */
+.privacy_box{width: 1400px; margin: 0 auto; border: 1px solid var(--color-stroke2); border-radius: 10px; overflow: hidden; margin-bottom: 50px;}
+.privacy_box .privacy_title{padding: 24px 29px; background: var(--color-sub2); border-bottom: 1px solid var(--color-stroke2);}
+.privacy_box .privacy_title strong{font-size: var(--font-p-size); color: var(--color-font1);}
+.privacy_box .privacy_title span{padding: 4px 8px; background: var(--color-point1); border-radius: 5px; font-size: 14px; color: #fff; margin-left: 10px;}
+.privacy_box .privacy_txt{padding: 24px 29px;}
+.privacy_box .privacy_txt p{color: var(--color-font3); margin-bottom: 20px;}
+.privacy_box .privacy_txt ul{width: 1338px; background: var(--color-sub2); border-radius: 10px; padding: 23px; box-sizing: border-box;}
+.privacy_box .privacy_txt ul li strong{color: var(--color-font1); margin-right: 65px;}
+.privacy_box .privacy_txt ul li span{color: var(--color-font3);}
+.privacy_box .agree{display: flex; align-items: center; padding: 24px 29px; border-top: 1px solid var(--color-stroke2);}
+.privacy_box .agree input{width: 20px; height: 20px; margin-right: 10px; cursor: pointer;}
+.privacy_box .agree label{color: var(--color-font2); cursor: pointer;}
+
+/* 버튼 */
+.button{display: flex; justify-content: center; gap: 12px; margin-bottom: 150px;}
+.button .btn_reset{width: 158px; height: 58px; border: 1px solid var(--color-stroke2); border-radius: 5px;
+    font-size: var(--font-basic-size); font-weight: 700; color: var(--color-font1); background: #fff; cursor: pointer; transition: all .3s ease-out;}
+.button .btn_reset:hover{background: #f6f7f8;}
+.button .btn_submit{width: 158px; height: 58px; border: 1px solid var(--color-stroke2); border-radius: 5px;
+    font-size: var(--font-basic-size); font-weight: 700; color: #fff; background: var(--color-main); cursor: pointer; transition: all .3s ease-out;}
+.button .btn_submit:hover{background: #002F58;}

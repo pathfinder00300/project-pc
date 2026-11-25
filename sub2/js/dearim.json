@@ -1,0 +1,20 @@
+{
+    "dearim":[
+        {"name":"쫄깃한부산어묵 야채사각", "image":"./images/sub1/product01.png","bigimg":"./images/sub1/pop_img01.jpg","memo":"매콤한 맛과 쫄깃한 식감을 간편하게 즐길 수 있는<br> 대림선 어묵 간식 제품입니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"야채듬뿍 김밥어묵", "image":"./images/sub1/product02.png", "bigimg":"./images/sub1/pop_img02.jpg","memo":"당근, 대파, 부추를 듬뿍 넣어 만든<br>다채로운 식감의 김밥어묵입니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"부산어묵 마당놀이", "image":"./images/sub1/product03.png", "bigimg":"./images/sub1/pop_img03.jpg","memo":"부드럽고 쫄깃한 식감과 맛이 조화로운 어묵","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"진한어묵탕", "image":"./images/sub1/product04.png", "bigimg":"./images/sub1/pop_img04.jpg","memo":"어묵4종, 곤약1종의 다양한 구성<br>3분 전자레인지로 간편한조리","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"국탕조합", "image":"./images/sub1/product05.png", "bigimg":"./images/sub1/pop_img05.jpg","memo":"사각어묵, 볼어묵, 봉어묵 등 대림선<br>어묵의 비법이 알차게 담긴 종합어묵","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"부산어묵얇은사각", "image":"./images/sub1/product06.png", "bigimg":"./images/sub1/pop_img06.jpg","memo":"엄선한 연육으로 정성껏 만든<br>어묵에 황금식감 2mm 두께를 살림 식감","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"포차오뎅꼬치", "image":"./images/sub1/product07.png", "bigimg":"./images/sub1/pop_img07.jpg","memo":"부산포차에서 먹단 맛 그대로!<br>간편하게 집에서 즐겨보세요!","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"짬뽕 어묵전골", "image":"./images/sub1/product08.png", "bigimg":"./images/sub1/pop_img08.jpg","memo":"불맛가득 얼큰한 짬뽕소스로<br>얼큰한 불맛의 짬뽕어묵전골 입니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"김치 어묵전골", "image":"./images/sub1/product09.png", "bigimg":"./images/sub1/pop_img09.jpg","memo":"칼칼한 김치소스와 비법 김치블럭으로<br>얼큰한 육수의 김치어묵전골 입니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"자연담은 야채어묵", "image":"./images/sub1/product10.png", "bigimg":"./images/sub1/pop_img10.jpg","memo":"엄선한 국산 당근과 대파를<br>듬뿍 넣어 풍성한 감칠맛의 야채어묵 입니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"실꼬리 돔어묵", "image":"./images/sub1/product11.png", "bigimg":"./images/sub1/pop_img11.jpg","memo":"고급 생선 실꼬리돔을 주재료로 만들어<br>고소하고 깔끔한 풍미와 깊은 맛의 어묵입니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"새우어묵", "image":"./images/sub1/product12.png", "bigimg":"./images/sub1/pop_img12.jpg","memo":"새우 원물로 구현한 풍부한 바다의 풍미","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"오징어어묵", "image":"./images/sub1/product13.png", "bigimg":"./images/sub1/pop_img13.jpg","memo":"신선한 오징어를 원재료로 사용하여<br>일반 어묵과는 차별화된 깊은 풍미를 자랑합니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"순살사각어묵", "image":"./images/sub1/product14.png", "bigimg":"./images/sub1/pop_img14.jpg","memo":"대한민국 어묵의 역사라불리는<br>대림어묵의 35년 제조 기술력을 담았습니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"갈치어묵", "image":"./images/sub1/product15.png", "bigimg":"./images/sub1/pop_img15.jpg","memo":"대한민국 어묵의 역사라불리는<br>대림어묵의 35년 제조 기술력을 담았습니다.","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"},
+        {"name":"조기어묵", "image":"./images/sub1/product16.png", "bigimg":"./images/sub1/pop_img16.jpg","memo":"조기연육으로 더욱 부드럽고 쫄깃한 식감","type":"어묵/맛살 > 어묵","brand":"대림선 / 사조대림","seller":"사조대림","material":"연육 68.67%, 야채 11.80%"}
+    ]
+}

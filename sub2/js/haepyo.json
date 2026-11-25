@@ -1,0 +1,12 @@
+{
+    "haepyo":[
+        {"name":"콩기름1.8L", "image":"./images/sub2/product01.jpg","bigimg":"./images/sub2/pop_img01.jpg","memo":"콩 100%로 국내에서 직접 만든 맑고 신선한 식용유 입니다.","type":"콩기름","brand":"해표","seller":"사조대림","material":"콩100%"},
+        {"name":"콩기름 900ml", "image":"./images/sub2/product02.jpg", "bigimg":"./images/sub2/pop_img02.jpg","memo":"콩 100%로 국내에서 직접 만든 맑고 신선한 식용유 입니다.","type":"콩기름","brand":"해표","seller":"사조대림","material":"콩100%"},
+        {"name":"콩기름 500ml", "image":"./images/sub2/product03.jpg", "bigimg":"./images/sub2/pop_img03.jpg","memo":"콩 100%로 국내에서 직접 만든 맑고 신선한 식용유 입니다.","type":"콩기름","brand":"해표","seller":"사조대림","material":"콩100%"},
+        {"name":"압착 올리브유 900ml", "image":"./images/sub2/product04.jpg", "bigimg":"./images/sub2/pop_img04.jpg","memo":"스페인 지중해연안의 잘 익은 올리브를<br>저온압착해서 얻은 프리미엄 오일입니다.","type":"압착올리브유","brand":"해표","seller":"사조대림","material":"압착올리브유 100%(스페인산)"},
+        {"name":"올리브유 500ml", "image":"./images/sub2/product05.jpg", "bigimg":"./images/sub2/pop_img05.jpg","memo":"스페인 지중해연안의 잘 익은 올리브를<br>저온압착해서 얻은 프리미엄 오일입니다.","type":"압착올리브유","brand":"해표","seller":"사조대림","material":"압착올리브유 100%(스페인산)"},
+        {"name":"포도씨유 900ml", "image":"./images/sub2/product06.jpg", "bigimg":"./images/sub2/pop_img06.jpg","memo":"잘익은 포도씨 100%로 만든 포도씨유 입니다.","type":"기타식용유지","brand":"해표","seller":"사조대림","material":"포도씨유100%"},
+        {"name":"카놀라유 500ml", "image":"./images/sub2/product07.jpg", "bigimg":"./images/sub2/pop_img07.jpg","memo":"유채씨 100%로 직접만든 순식물성 고급오일 입니다.","type":"정제유채유","brand":"해표","seller":"사조대림","material":"카놀라유100%(캐나다산)"},
+        {"name":"해바라기유 900ml", "image":"./images/sub2/product08.jpg", "bigimg":"./images/sub2/pop_img08.jpg","memo":"스페인 지중해 햇살을 담은 해바라기씨 100%로 만든 순식물성 고급오일 입니다.","type":"해바라기유","brand":"해표","seller":"사조대림","material":"해바라기유100%(스페인산)"}
+    ]
+}

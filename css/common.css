@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* 전체페이지 공통 css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:wght@100..900&display=swap');
+/* font-family: "Noto Sans KR", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+:root{
+    --color-main: #023E73;
+    --color-point1: #D92534;
+    --color-sub1: #E8F1F8;
+    --color-sub2: #F5F8FA;
+    --color-stroke: #D9E3E9;
+    --color-stroke2: #DCE3E8;
+    --color-table: #EEF4F8;
+    --color-font1: #333;
+    --color-font2:#666;
+    --color-font3:#999;
+    --color-subtitle:#007EED;
+    --color-subtitle2:#8A9AA6;
+    --color-subtitle3: #7CE7FF;
+    --card-num-color: #D8E0E6;
+
+    --font-h2-size: 3.75rem; /* 60px */
+    --font-h3-size: 3rem; /* 48px */
+    --font-h4-size: 2.25rem; /* 36px */
+    --font-h5-size: 1.88rem; /*  30px */
+    --font-h6-size: 1.5rem; /*  24px */
+ 
+    --font-hashtag-size: 0.88rem; /*  14px */
+    --font-smtitle-size: 0.94rem; /*  15px */
+    --font-p-size: 1.13rem; /*  18px */
+    --font-gnb-size: 1.25rem; /* 20px */
+    --font-sub-size: 1.63rem; /* 26px */
+    --font-sub2-size: 1.75rem; /* 28px */
+    --font-basic-size: 1rem;
+    --card-num-size: 6rem;  /* 96px */
+
+    --box-shadow1 : 1px 1px 10px 1px rgba(0,0,0,.3);
+    --box-shadow2 : 2px 2px 10px 2px rgba(0,0,0,.4);
+    --box-shadow3 : 2px 2px 10px 1px rgba(0,0,0,.2);
+    --box-shadow4 : 5px 5px 10px 1px rgba(0,0,0,.1);
+    --box-shadow5 : 0 18px 24px 0 rgba(0,0,0,.1);
+    --round-shadow1 : 0 8px 22px rgba(10, 39, 65, .06);
+    --round-shadow2 : 0 13px 28px rgba(2, 62, 115, .12);
+    --history-line-height: 0px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* reset */
+*{margin: 0; padding: 0;}
+html{font-size: 16px;}
+body{font-family: "Noto Sans KR", sans-serif; color: #333;}
+a{color: #333; text-decoration: none; display: block;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse;}
+address{font-style: normal;}
+img{border: 0; vertical-align: top;}
+.hidden{position: absolute; left: -1000%; top: 0; display: block; width: 1px; height: 1px; overflow: hidden; color: #fff;}
+
+#skipNav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 110;
+}
+#skipNav a{
+    height: 1px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#skipNav a:focus{height: auto; padding: 10px 0; background: #023E73;}
+#wrap{width: 100%; overflow: hidden;}
+
+/* 공통 헤더영역 */
+#headerArea{width: 100%; height: 102px;position: fixed; z-index: 100; background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); box-shadow: var(--box-shadow1); border: 1px solid #ccc;overflow: hidden; transition: background .3s ease-out;}
+#headerArea:hover::after{content: ''; width: 100%; height: 1px; background: #f6f6f6; display: block; position: absolute;
+  top: 100px; left:0}
+#headerArea .header_inner{width: 1400px; height: 100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
+#headerArea .logo a{width: 154px; height: 59px; background: url(../images/logo.png) no-repeat; text-indent: -9999px; overflow: hidden;}
+#headerArea #gnb{width: 900px;}
+/* 드롭다운네비 */
+#headerArea #gnb .dropdownmenu{ width: 100%; display: flex;}
+#headerArea #gnb .dropdownmenu .menu{position:relative; width:16.666%;}
+#headerArea #gnb .dropdownmenu li .depth1{padding: 37px 0;  color: var(--color-font1); text-align: center; transition: all .5s; position: relative; }
+#headerArea #gnb .dropdownmenu li .depth1::after{
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 3px;
+    background: var(--color-main);
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .3s ease-out;
+    transform-origin: left center;
+}
+#headerArea #gnb .dropdownmenu li .active::after{transform: scaleX(1);}
+
+/* 검색 */
+.search_pop{display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 200;}
+.search_pop .modal_bg1{position: absolute;left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.6);}
+.search_pop .search_box{position: absolute; width: 900px; left: 50%; top: 145px; transform: translateX(-50%); border-radius: 30px; background: #fff; padding: 55px 55px; box-sizing: border-box;}
+.search_pop .search_box .title{display: block; width: 625px; text-align: center; margin: 0 auto 35px; font-size: var(--font-sub-size); color: var(--color-main);}
+.search_pop .search_close{position: absolute; right: 12px; top: 10px; border: 0; background: none; cursor: pointer;}
+.search_pop .search_close .material-symbols-outlined{font-size: 30px; color: #555;}
+.search_pop .search_input{display: flex; align-items: center; width: 625px; height: 60px; margin: 0 auto; border: 2px solid var(--color-main); border-radius: 50px; overflow: hidden;}
+input:focus {outline: none;}
+.search_pop .search_input input{flex: 1; padding: 0 20px; border: 0; outline: 0; font-size: var(--font-p-size); font-weight: 500; color: var(--color-font2); box-sizing: border-box;}
+.search_pop .search_input button{width: 70px; border: 0; background: #fff; cursor: pointer; padding-top: 5px;}
+.search_pop .search_input button span{font-size: 27px; color: var(--color-main);}
+
+/* 셀렉트박스 */
+.search_pop .search_input #brand_list{width: 110px; height: 60px; margin: 0 15px; border: none; outline: none; padding: 0 10px; font-size: var(--font-basic-size); color: var(--color-main); cursor: pointer;}
+#brand_list{font-size: var(--font-hashtag-size); font-weight: 500; color: var(--color-font2);}
+#brand_list option {font-size: var(--font-hashtag-size); color: var(--color-font2);; font-weight: 500;}
+.search_pop .search_recommend{width: 625px; margin: 12px auto;}
+.search_pop .search_recommend strong{display: block; font-size: var(--font-basic-size); color: var(--color-font2); margin-bottom: 10px;}
+.search_pop .search_recommend ul li{display: flex; gap: 20px;}
+.search_pop .search_recommend ul li span{width: 100px; font-size: var(--font-basic-size); text-align: center; padding: 8px 25px; background: var(--color-main); color: #fff; border-radius: 30px; box-sizing: border-box; margin-bottom: 10px;}
+.recommend_list ul{display: flex; gap: 10px;}
+.recommend_list li{padding: 8px 25px; background: var(--color-table); color: var(--color-font2); border-radius: 30px; box-sizing: border-box;}
+
+
+/* 2depth */
+#headerArea #gnb .dropdownmenu li ul{width:100%; height:180px; position:absolute; top:100px;left:0; padding:20px 0; display: none; border-top: 1px soild var(--color-font3);}
+#headerArea #gnb ul.dropdownmenu ul li{ text-align:center; font-weight:bold;}
+#headerArea #gnb ul.dropdownmenu ul li a{padding:7px 0;  color:var(--color-font2); font-weight: 500; transition: transform .5s;}
+#headerArea #gnb ul.dropdownmenu ul li a:hover{color:var(--color-main); font-weight: 700;}
+#headerArea .top_menu{display: flex; gap: 22px;}
+#headerArea .top_menu li{color: #333;}
+#headerArea #gnb .dropdownmenu .menu:hover>ul{z-index: 10; width: 100%; height: 195px; background: #f6f6f6; box-sizing: border-box;}
+
+
+/* 공통 푸터영역 */
+#footerArea{width: 100%; background: #1C1C1C; color: #fff;}
+#footerArea .footer_inner{width: 1400px; height: 340px; margin: 0 auto;}
+#footerArea .footer_inner .footer_top{display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1px solid #666; padding: 63px 0 20px 0; margin-bottom: 21px;}
+#footerArea .footer_inner .footer_top ul{display: flex; justify-content: center; gap: 20px;}
+#footerArea .footer_inner .footer_top ul li a{color: #999;}
+#footerArea .footer_inner .footer_top ul li a span{color: var(--color-point1); font-weight: 500;}
+#footerArea .footer_inner .footer_bottom{display: flex; justify-content: space-between;}
+#footerArea .footer_inner .footer_bottom .footer_left address{margin-bottom: 23px;}
+#footerArea .footer_inner .footer_bottom .footer_left p{color: #999;}
+/* #footerArea .footer_inner .footer_bottom .footer_right .family{width: 140px; height: 20px; border: 1px solid #999; padding: 15px 20px; text-align: center; display: flex; justify-content: center; align-items: center; gap: 20px;} */
+#footerArea .footer_inner .footer_bottom .footer_right>ul{display: flex; justify-content: flex-start;}
+#footerArea .footer_inner .footer_bottom .footer_right>ul a{font-size: 35px; color: #999; transition: all .5s ease-out;}
+#footerArea .footer_inner .footer_bottom .footer_right>ul a:hover {color: #f0f0f0;}
+
+#footerArea .top_move{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--color-main);
+    color: #fff;
+    font-weight: 600;
+    position: fixed;
+    bottom: 150px;
+    left:50%;
+    z-index: 90;
+    margin-left: 750px;    
+    box-shadow: var(--box-shadow1);
+    transition: all .5s ease-out;
+    display: none;
+}
+#footerArea .top_move:hover{
+    background: #fff;
+    color: var(--color-main);
+}
+#footerArea .top_move span{width: 80px; height: 80px; display:flex;justify-content: center; align-items: center;}
+
+/* 패밀리사이트 */
+#footerArea .footer_inner .footer_bottom .footer_right .family{width: 150px; border: 1px solid #666; text-align: center; position: relative;}
+#footerArea .footer_inner .footer_bottom .footer_right .select .arrow{display:block; font-size:1rem; padding: 10px 0; text-align: center; color: var(--color-font3); transition: all 1s;}
+#footerArea .footer_inner .footer_bottom .footer_right .select .arrow i{font-size:.8rem ; color: red;}
+#footerArea .footer_inner .footer_bottom .footer_right .select .arrow:hover{color:#fff;}
+#footerArea .footer_inner .footer_bottom .footer_right .select .aList{position:absolute; top:-172px; left:-1px; width:150px; border:1px solid #666; display:none}
+#footerArea .footer_inner .footer_bottom .footer_right .select .aList li{line-height:1.5rem; border: 1px solid #666; border-bottom: 0; background: #1C1C1C;}
+#footerArea .footer_inner .footer_bottom .footer_right .select .aList li:last-child{border-bottom: none;}
+#footerArea .footer_inner .footer_bottom .footer_right .select .aList li a{display:block; text-align: center; padding: 5px 0; transition: all 1s; font-family: "Roboto", sans-serif; font-size: var(--font-basic-size); font-weight: 400; color: var(--color-font3);}
+#footerArea .footer_inner .footer_bottom .footer_right .select .aList li a:hover{color:#fff; background: var(--color-main);}
+
+input,
+select,
+textarea,
+button{
+    font: inherit;
+}

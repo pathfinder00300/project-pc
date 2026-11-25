@@ -1,0 +1,22 @@
+/* FAQ 본문영역 */
+.content_area h3{text-align: center;}
+.content_area .faq_title{text-align: center; font-size: var(--font-h6-size); font-weight: 600; color: var(--color-font2); margin-bottom: 63px;}
+
+.content_area .hgroup .all{width: 1000px; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; margin-bottom: 10px;}
+.content_area ul{min-height: 850px; margin-bottom: 200px; transition: all .3s ease-out;}
+.content_area ul .article{margin: 0 auto; width: 1000px; border: 1px solid var(--color-stroke2); margin-bottom: 26px;}
+.content_area ul .article .question{display: grid; grid-template-columns: 60px 60px 1fr 40px; align-items: center; column-gap: 20px; box-sizing: border-box; background: var(--color-sub2);
+border-bottom: 1px solid var(--color-stroke2); height: 98px; padding: 30px 40px;}
+.content_area ul .article:hover{border: 1px solid var(--color-main); box-shadow: 0 3px 5px 3px #eceff1;}
+
+.article .num{color: #aaa; font-weight: 600;}
+.article .faq_icon{width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; border-radius: 50%;
+    background: var(--color-main); color: #fff; font-weight: 700;}
+.article .question_txt{font-size: 18px; color: #333;}
+.article .toggle{width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; border: 1px solid #ccc;
+border-radius: 50%; font-size: 24px; color: #777;}
+
+.article .answer{padding: 45px 80px 45px 120px; box-sizing: border-box; display: none;}
+.article .answer .answer_inner{display: flex; align-items: flex-start; gap: 50px;}
+.article .answer .faq_icon{width: 30px; height: 27px; display: flex; justify-content: center; align-items: center; flex-shrink: 0; border-radius: 50%;
+    background: var(--color-main); color: #fff; font-weight: 700; padding-bottom: 3px;}

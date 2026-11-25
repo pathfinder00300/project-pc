@@ -1,0 +1,55 @@
+/* 비전 본문영역 */
+.content_01{width: 1400px; background: url(../images/sub3/globe.png) no-repeat; margin: 0 auto;}
+.content_01 div{text-align: center; margin-bottom: 130px;}
+.content_01 div h3{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); color: var(--color-subtitle); margin-bottom: 7px;}
+.content_01 div .subtitle{font-size: var(--font-h4-size); font-weight: 700; margin-bottom: 35px;}
+
+.content_02{width: 100%; height: 650px; background: url(../images/sub3/strategy.jpg) center no-repeat; background-attachment: fixed; background-size: cover; position: relative;  padding-top: 95px;}
+.content_02 h3{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); color: #fff; margin-bottom: 7px; text-align: center;}
+.content_02 .subtitle{font-size: var(--font-h4-size); font-weight: 700; margin-bottom: 65px; color: #fff; text-align: center;}
+.content_02 ul{display: flex; justify-content: center; gap: 25px;}
+.content_02 ul li{width: 311px; height: 410px; display: flex; flex-direction: column; align-items: center; position: relative; text-align: center;}
+.content_02 ul li span::before{content: ''; width: 1px; height: 215px; background: #ccc; display: flex; position: absolute; left: -7px; top: 86px;}
+.content_02 ul li:first-child span::before{display: none;}
+/* border: 1px solid #d9d9d9; background: rgba(255, 255, 255, 0.15); border-radius: 30px; backdrop-filter: blur(8px); */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 60
+}
+.content_02 ul li span{font-family: "Roboto", sans-serif; font-size: 128px; font-weight: 700; color: #fff; margin-bottom: -24px;}
+.content_02 ul li p{font-family: "Roboto", sans-serif; font-size: var(--font-h4-size); font-weight: 600; color: #fff; margin-bottom: 48px;}
+.content_02 dl dt{font-size: var(--font-h6-size); color: #fff; font-weight: 700; margin-bottom: 10px;}
+.content_02 dl dd{font-size: var(--font-basic-size); color: #fff; margin: 0 29px; font-weight: 300; line-height: 25px;}
+
+.content_03{width: 2000px; height: 1100px; background: #F6F6F6; margin: 0 auto; padding-top: 95px;}
+.content_03 h3{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); color: var(--color-subtitle); margin-bottom: 7px; text-align: center;}
+.content_03 .subtitle{font-size: var(--font-h4-size); font-weight: 700; margin-bottom: 35px; margin-bottom: 86px; text-align: center;}
+.content_03 ul{display:grid; grid-template-columns: repeat(2, 590px); justify-content: center; gap: 40px; margin: 0 auto;}
+.content_03 ul li{width: 590px; height: 345px; background: #fff; border-radius: 30px; box-shadow: var(--box-shadow3); text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.content_03 ul li .material-symbols-outlined{width: 100px; height: 100px; border-radius: 50%; background: var(--color-main); font-size: 50px; color: #fff; display: flex; justify-content: center; align-items: center; margin-bottom: 20px;}
+.content_03 dl dt{font-size: var(--font-sub2-size); font-weight: 700; margin-bottom: 20px;}
+.content_03 dl dd{width: 420px; text-align: justify;}
+
+
+.content_04{width: 1400px; margin: 0 auto; padding-top: 100px;}
+.content_04 h3{font-family: "Roboto", sans-serif; font-size: var(--font-h5-size); color: var(--color-subtitle); margin-bottom: 7px; text-align: center;}
+.content_04 .subtitle{font-size: var(--font-h4-size); font-weight: 700; margin-bottom: 70px; text-align: center;}
+.content_04 ul{display: flex; justify-content: center; gap: 22px; position: relative; margin-bottom: 200px;}
+.content_04 ul li{width: 406px; height: 406px; border-radius: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #fff;}
+.content_04 ul .cicle_01{background: #194ABC;}
+.content_04 ul .cicle_02{background: #436DDB;}
+.content_04 ul .cicle_03{background: #0481D1;}
+.content_04 ul li p{font-family: "Roboto", sans-serif; font-size: var(--font-p-size); margin-bottom: 5px;}
+.content_04 dl dt{font-size: var(--font-h4-size); font-weight: 700; margin-bottom: 23px; text-align: center;}
+.content_04 dl dd{font-size: var(--font-basic-size); text-align: center;}
+.content_04 ul li::before{
+    content: '';
+    width: 368px;
+    height: 368px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    position: absolute;
+}
